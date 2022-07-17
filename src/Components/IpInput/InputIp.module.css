@@ -1,0 +1,45 @@
+.input__section {
+  margin-top: 0;
+  background-image: url("../../assets/pattern-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 240px;
+}
+@media (max-width: 525px) {
+  .input__section {
+    min-height: 310px;
+  }
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.ip__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 15px 18px;
+  border-radius: 10px 0 0 10px;
+  width: 100%;
+  font-family: var(--rubik-font);
+}
+
+form button {
+  border: none;
+  outline: none;
+  background: var(--very-dark-gray);
+  padding: 15px 15px;
+  border-radius: 0 10px 10px 0;
+}
