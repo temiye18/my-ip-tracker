@@ -1,8 +1,10 @@
 .mapContainer {
-  width: 100%;
-  position: relative;
+  /* width: 100%; */
+  /* height: 100%; */
+  position: fixed;
+  /* position: relative; */
   overflow: hidden;
-  margin-top: -4rem;
+  margin-top: -4.3rem;
   z-index: -1;
 }
 

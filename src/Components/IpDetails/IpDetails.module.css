@@ -66,5 +66,6 @@
 
   .ip__details {
     margin-top: -8.5rem;
+    max-width: 200px;
   }
 }
